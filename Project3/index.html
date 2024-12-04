@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to the official site of Kasteel Avocado! Explore the latest album, tour dates, and contact information. Stay connected through our social media links.">
+    <meta name="keywords" content="Kasteel Avocado, music, album, tour dates, contact, band, music website, new album">
+    <meta name="author" content="Kasteel Avocado">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <header class="head">
+      <a href="index.html" class="logo">
+        <img src="Img/logo.svg" alt="">
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tourdata.html">Tourdata</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="order.html">Koop tickets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-img">
+<img src="Img/Album cover.jpg" onclick="document.getElementById('mySong').play()">
+<audio id="mySong">
+  <source src="Sound/A Sky Full of Stars.mp3" type="audio/mpeg">
+</audio>
+<div class="audio-controls">
+  <button onclick="document.getElementById('mySong').play()">Play</button>
+  <button onclick="document.getElementById('mySong').pause()">Stop</button>
+</div>
+      </div>
+      <div class="home-content">
+        <h1>It's <span>Kasteel Avocado</span></h1>
+        <h2>Welkom op onze pagina</h2>
+        <h3>"Beluister een preview van ons nieuwe album, binnenkort beschikbaar!"</h3>
+        <h5>bekijk ons ​​op sociale media</h5>
+        <div class="arrow"></div>
+        <div class="social-icons">
+          <a href="https://www.youtube.com/user/ColdplayVEVO"target="_blank"><i class="bx bxl-youtube" ></i></a>
+          <a href="https://www.instagram.com/coldplay/"target="_blank"><i class="bx bxl-instagram" ></i></a>
+          <a href="https://x.com/coldplay"target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"target="_blank"><i class="bx bxl-spotify"></i></a>
+        </div>
+  </div>
+    </section>
+   
+    
+    
+    

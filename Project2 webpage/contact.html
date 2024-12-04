@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+<script src="Js/script.js"defer></script>
+</head>
+<body>
+    <header class="head">
+        <a href="index.html" class="logo">
+          <img src="Img/logo.svg" alt="">
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tourdata.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact us</h2>
+        <form id="contact-form" action="https://sd-lab.nl/INTERFACE1/index.php" method="POST" onsubmit="showConfirmation(event)">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" name="name" required />
+            <input type="email" placeholder="Email" name="email" required />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number" name="phone" required />
+            <input type="text" placeholder="Subject" name="subject" required />
+          </div>
+          <textarea name="message"  cols="30"
+          rows="10" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <ul class="list">
+          <li>
+            <a href="tourdata.css">Tour info</a>
+          </li>
+          <li>
+            <a href="index.html">About </a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright">© Kasteel Avocado | All Rights Reserved</p>
+      </footer>
+    </body>
+  </html>
+</body>
+</html>
